@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>作業時間記録(ウェブマニア専用)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <p class="is-size-1">作業時間記録(ウェブマニア専用)</p>
+            <p class="is-size-3">作業時間を記録しよう！<br>
+                下のボタンを押すとスタートするよ！</p>
+            <p id="display" class="subtitle">00:00:00.000</p>
+            <button id="startButton" class="button is-primary">スタート</button>
+            <button id="stopButton" class="button is-danger">ストップ</button>
+            <button id="resetButton" class="button is-light">リセット</button>
+            <p class="is-size-2">前回の作業の記録</p>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <script src="stoptimer.js"></script> <!-- 外部 JavaScript を読み込む -->
+</body>
+</html>
